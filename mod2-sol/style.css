@@ -1,0 +1,77 @@
+/********** Base styles **********/
+*{
+    box-sizing: border-box;
+  }
+  h1 {
+      font-size: 1.75em;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: black;
+      margin-bottom: 15px;
+  }
+  
+  div > div { 
+    border: 2px solid black;
+    width: 90%;
+    height: fit-content;
+    margin-top: none;
+    margin-right: auto;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    background-color: grey;
+    padding-bottom: none;
+  }
+  .head{
+      font-size: 1.45em;
+      text-align: center;
+      padding: none;
+      margin-top: 0%;
+      margin-left: 60%;
+      border: 1px solid black;
+      width: 40%;
+    }
+    .para{
+        font-size: 1.25em;
+        padding: 4px;
+    }
+    .chicken{
+        background-color: sienna;
+    }
+    .beef{
+        background-color: red;
+    }
+    .sushi
+    {
+        background-color: tan;
+    }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+      .col-lg-3  {
+      float: left;
+      border: 1px solid black;
+    }
+    .col-lg-3 {
+      width: 30%;
+    }
+    
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+     .col-md-6 
+     {
+      float: left;
+      border: 1px solid black;
+     }
+    .col-md-6 
+    {
+      width: 45%;
+    }
+  }
